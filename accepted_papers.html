@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>SECUTE 2024</title>
+    <title>SECUTE 2026</title>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="#"></script>
@@ -46,7 +46,7 @@
     <div class="container d-flex align-items-center justify-content-between" id="navbar-container">
         <div class="d-flex">
             <a href="index.html" class="logo" style="margin-right: 20px"><img src="assets/img/secute-logo.png" alt="" class="img-fluid"></a>
-            <h1 class="logo"><a href="index.html">SECUTE 2024</a></h1>
+            <h1 class="logo"><a href="index.html">SECUTE 2026</a></h1>
         </div>
 
         <nav id="navbar" class="navbar">
@@ -56,6 +56,12 @@
                 <li><a class="nav-link active" href="accepted_papers.html"><i class="bi bi-journals"></i>Accepted Papers</a></li>
                 <li><a class="nav-link" href="program.html"><i class="bi bi-pencil-square"></i>Program</a></li>
                 <li><a class="nav-link" href="committee.html"><i class="bi bi-people"></i>Committee</a></li>
+                <li class="dropdown"><a href="#"><i class="bi bi-calendar3"></i><span> Editions</span> <i class="bi bi-chevron-down"></i></a>
+                    <ul>
+                        <li><a href="/"><i class="bi bi-star"></i> Edizione 2026</a></li>
+                        <li><a href="/2024/"><i class="bi bi-archive"></i> Edizione 2024</a></li>
+                    </ul>
+                </li>
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
         </nav>
@@ -70,79 +76,17 @@
         <div class="row class-container">
             <h2> <i class="bi bi-journals"></i> Accepted Papers </h2>
         </div>
-        <div id="paper_list" class="row">
-
-            <!----Paper 1---->
-            <div class="align-items-center publication" data-aos="fade-right" data-aos-delay="100" data-aos-duration="800">
-                <h4>LLM Security Guard for Code</h4>
-                <p><i>Arya Kavian, Mohammad Mehdi Pourhashem Kallehbasti, Sajjad Kazemi, Ehsan Firouzi, Mohammad Ghafari</i></u></p>
-                <button class="btn btn-publication btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_0" aria-expanded="false" aria-controls="collapse_4">
-                    Abstract
-                </button>
-                <div class="collapse abstract" id="collapse_0">
-                    Many developers rely on Large Language Models (LLMs) to facilitate software development. Nevertheless, these models have
-                    exhibited limited capabilities in the security domain. We introduce LLMGuard, an open-source framework that offers enhanced code security through the synergy
-                    between static code security analyzers and LLMs. Particularly, it equips practitioners with code solutions that are more secure than the code initially generated
-                    by LLMs. It also regularly benchmarks LLMs, providing valuable insights into the evolving security properties of these models.
-                </div>
+        <div id="paper_list" class="row" style="justify-content: center; text-align: center; padding: 4% 0;">
+            <div data-aos="zoom-in" data-aos-delay="200" data-aos-duration="800">
+                <i class="bi bi-hourglass-split" style="font-size: 64px; color: rgb(32, 178, 150); margin-bottom: 20px; display: block;"></i>
+                <h3 style="font-size: 2.2rem; color: rgb(9, 18, 60); margin-bottom: 12px;">Coming Soon</h3>
+                <p style="font-size: 1.1rem; color: #666; max-width: 500px; margin: 0 auto;">
+                    The list of accepted papers will be published after the notification deadline.<br>Stay tuned!
+                </p>
             </div>
-
-            <!----Paper 2---->
-            <div class="align-items-center publication" data-aos="fade-right" data-aos-delay="200" data-aos-duration="800">
-                <h4>Security Risk Assessment on Cloud: A Systematic Mapping Study</h4>
-                <p><i>Giusy Annunziata, Alexandra Sheykina, Gemma Catolino, Fabio Palomba, Andrea De Lucia, Filomena Ferrucci</i></u></p>
-                <button class="btn btn-publication btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_1" aria-expanded="false" aria-controls="collapse_4">
-                    Abstract
-                </button>
-                <div class="collapse abstract" id="collapse_1">
-                    Cloud computing has become integral to modern organizational operations, offering efficiency and agility. However, security challenges such as data
-                    loss and downtime necessitate tailored compliance solutions. Risk assessment is crucial for identifying and mitigating cloud-related threats, yet a
-                    standardized approach remains elusive. Our study aims to fill this gap by conducting a mapping study on the prevailing methodologies. Through a meticulous
-                    analysis of 21 scholarly papers, we explore various aspects of security risk assessment for the cloud. The results provide valuable insights into delivery
-                    models, standards, and validation practices, contributing to a comprehensive understanding of cloud risk assessment.
-                </div>
-            </div>
-
-            <!----Paper 3---->
-            <div class="align-items-center publication" data-aos="fade-right" data-aos-delay="300" data-aos-duration="800">
-                <h4>Semgrep*: Improving the Limited Performance of Static Application Security Testing (SAST) Tools</h4>
-                <p><i>Gareth Bennett, Tracy Hall, Emily Winter, Steve Counsell</i></u></p>
-                <button class="btn btn-publication btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_2" aria-expanded="false" aria-controls="collapse_4">
-                    Abstract
-                </button>
-                <div class="collapse abstract" id="collapse_2">
-                    Vulnerabilities in code should be detected and patched quickly to reduce the time in which they can be exploited. There are many automated approaches
-                    to assist developers in detecting vulnerabilities, most notably Static Application Security Testing (SAST) tools. However, no single tool detects all
-                    vulnerabilities and so relying on any one tool may leave vulnerabilities dormant in code. In this study, we use a manually curated dataset to evaluate
-                    four SAST tools on production code with known vulnerabilities. Our results show that the vulnerability detection rates of individual tools range from 11.2%
-                    to 26.5%, but combining these four tools can detect 38.8% of vulnerabilities. We investigate why SAST tools are unable to detect 61.2% of vulnerabilities and
-                    identify missing vulnerable code patterns from tool rule sets. Based on our findings, we create new rules for Semgrep, a popular configurable SAST tool. Our
-                    newly configured Semgrep tool detects 44.7% of vulnerabilities, more than using a combination of tools, and a 181% improvement in Semgrep’s detection rate.
-                </div>
-            </div>
-
-            <!----Paper 4---->
-            <div class="align-items-center publication" data-aos="fade-right" data-aos-delay="400" data-aos-duration="800">
-                <h4>Toward a Search-Based Approach to Support the Design of Security Tests for Malicious Network Traffic</h4>
-                <p><i>Davide La Gamba, Gerardo Iuliano, Gilberto Recupito, Giammaria Giordano, Filomena Ferrucci, Dario Di Nucci, Fabio Palomba</i></u></p>
-                <button class="btn btn-publication btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_3" aria-expanded="false" aria-controls="collapse_4">
-                    Abstract
-                </button>
-                <div class="collapse abstract" id="collapse_3">
-                    IoT devices generate and exchange large amounts of data daily, creating significant security and privacy challenges. Security testing, particularly
-                    using Machine Learning (ML), helps identify and classify potential malicious network traffic. Previous research has shown how ML can aid in designing
-                    security tests for IoT attacks. This ongoing paper introduces a search-based approach using Genetic Algorithms (GAs) to evolve detection rules and detect
-                    intrusion attacks. We build on existing GA methods for intrusion detection and compare them with leading ML models. We propose 17 detection rules and
-                    demonstrate that while GAs do not fully replace ML, they perform well with ample attack examples and enhance the usability and implementation of deterministic
-                    test cases by security testers.
-                </div>
-            </div>
-
         </div>
     </div>
 </section>
-
-
 
 <!--------------------------------- FOOTER --------------------------------------------------->
 <footer id="footer">
@@ -155,7 +99,7 @@
             Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
         </div>
         <div class="credits">
-            SECUTE 2024
+            SECUTE 2026
         </div>
     </div>
 </footer>

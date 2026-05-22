@@ -48,7 +48,7 @@
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: rgb(273, 179, 119);
+  color: rgb(32, 178, 150);
   transform: scale(1.08);
 }
 
@@ -105,7 +105,7 @@
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #6A2E35;
+  color: #0D6E5A;
 }
 
 .navbar .dropdown:hover>ul {
@@ -204,7 +204,7 @@
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: rgb(273, 179, 119);
+  color: rgb(32, 178, 150);
 }
 
 .navbar-mobile .getstarted,
@@ -240,7 +240,7 @@
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-  color: #3B8BCE;
+  color: #1BA88A;
 }
 
 .navbar-mobile .dropdown>.dropdown-active {

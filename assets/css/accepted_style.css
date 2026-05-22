@@ -1,5 +1,5 @@
 #accepted h2 {
-    color: rgb(273, 179, 119);
+    color: rgb(32, 178, 150);
     font-family: 'Palanquin Dark', sans-serif;
     font-size: 40px;
     margin-bottom: 2%;
@@ -35,11 +35,11 @@
   border-radius: 4px;
   transition: 0.5s;
   color: #fff;
-  background: rgb(273, 179, 119);
+  background: rgb(32, 178, 150);
 }
 .btn-publication:hover {
   font-size: 16px;
-  background: rgb(273, 179, 119);
+  background: rgb(32, 178, 150);
   transform: scale(1.08);
   opacity: 1;
 }

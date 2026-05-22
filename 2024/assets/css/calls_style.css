@@ -1,0 +1,117 @@
+
+.grey {
+    background-color: #f3f4f6;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .white {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+#calls_info .container_custom {
+    max-width: 150%;
+}
+  
+#calls_info h2 {
+    color: rgb(273, 179, 119);
+    font-family: 'Palanquin Dark', sans-serif;
+    font-size: 40px;
+    margin-bottom: 2%;
+    margin-top: 6%;
+    text-align: center;
+}
+
+#calls_info h3 {
+    color: rgb(273, 179, 119);
+    font-family: 'Palanquin Dark', sans-serif;
+    font-size: 30px;
+    margin-top: 1%;
+}
+
+#calls_info h4 {
+    font-size: 22px;
+    color: rgb(273, 179, 119);
+}
+
+#calls_info p {
+    text-align: justify;
+    font-size: 18px;
+}
+
+#calls_info a {
+    text-decoration: underline;
+    color: rgb(48, 86, 175);
+}
+
+#calls_info a:hover {
+    color: rgb(273, 179, 119);
+    transition: 0.6s;
+}
+
+#calls_info ul {
+    margin-left: 4%;
+    list-style: none;
+    padding: 0;
+    font-size: 18px;
+}
+
+#calls_info li {
+    margin-bottom: 0.5%;
+}
+  
+#calls_info ul li::before {
+    content: '\f061';
+    font-family: 'FontAwesome';
+    margin-right: 8px;
+    color: rgb(273, 179, 119);
+}
+
+#topics ul li::before {
+    content: '\f00c';
+    font-family: 'FontAwesome';
+    margin-right: 8px;
+    color: rgb(273, 179, 119);
+}
+
+#topics .container {
+    margin-top: 1%;
+    max-width: 1500px;
+    align-content: center;
+}
+
+#topics .container div {
+  width: 50%;
+  box-sizing: border-box;
+}
+
+#calls_info strong, b {
+    color: rgb(48, 86, 175);
+}
+
+@media (max-width: 900px) {
+    #topics .container {
+      flex-direction: column;
+    } 
+
+    #topics .container div {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1300px) {
+    #calls_info h2 {
+      margin-top: 10%;
+    }
+}
+
+@media (max-width: 491px) {
+    #calls_info h2 {
+      margin-top: 12%;
+    }
+}
+  
+  
