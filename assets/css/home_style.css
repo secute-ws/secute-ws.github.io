@@ -316,11 +316,109 @@
   text-align: justify;
 }
 
-#important-dates,
-#twitter {
+#important-dates {
   width: 50%;
   box-sizing: border-box;
   padding: 10px;
+}
+
+#social {
+  width: 50%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.social-feeds {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.social-feed-card {
+  background: #fff;
+  border: 1px solid #e1e4e8;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.social-feed-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 18px;
+  border-bottom: 1px solid #e1e4e8;
+  font-weight: 600;
+  font-size: 16px;
+  color: #1a1a1a;
+}
+
+.linkedin-content {
+  padding: 24px 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.linkedin-info {
+  margin-bottom: 18px;
+}
+
+.linkedin-logo {
+  width: 64px;
+  height: 64px;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  object-fit: contain;
+}
+
+.linkedin-name {
+  font-weight: 600;
+  font-size: 15px;
+  color: #1a1a1a;
+  margin: 0 0 4px 0;
+  text-align: center;
+}
+
+.linkedin-tagline {
+  font-size: 13px;
+  color: #666;
+  margin: 0;
+  text-align: center;
+}
+
+.linkedin-follow-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #0A66C2;
+  color: white;
+  padding: 10px 24px;
+  border-radius: 24px;
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.3s;
+  margin-bottom: 10px;
+}
+
+.linkedin-follow-btn:hover {
+  background: #004182;
+  color: white;
+}
+
+.linkedin-visit-btn {
+  display: inline-block;
+  font-size: 14px;
+  color: #0A66C2;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.linkedin-visit-btn:hover {
+  color: #004182;
+  text-decoration: underline;
 }
 
 @media (max-width: 900px) {
@@ -329,7 +427,7 @@
   }
 
   #important-dates,
-  #twitter {
+  #social {
     width: 100%;
   }
 }
