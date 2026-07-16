@@ -284,6 +284,60 @@
   }
 }
 
+/*-------------------------- JOURNAL SPECIAL ISSUE --------------------------*/
+
+#journal_special_issue .container {
+  max-width: 1500px;
+}
+
+#journal_special_issue h2 {
+  color: rgb(32, 178, 150);
+  font-family: 'Palanquin Dark', sans-serif;
+  font-size: 40px;
+}
+
+#journal_special_issue p {
+  margin-top: 2%;
+  font-size: 18px;
+  text-align: justify;
+}
+
+#journal_special_issue ul {
+  font-size: 18px;
+  margin-top: 1%;
+}
+
+#journal_special_issue li {
+  margin-bottom: 6px;
+}
+
+#journal_special_issue a {
+  color: rgb(48, 86, 175);
+}
+
+#journal_special_issue a:hover {
+  color: rgb(32, 178, 150);
+  transition: 0.6s;
+}
+
+@media (max-width: 1900px) {
+  #journal_special_issue .container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 1600px) {
+  #journal_special_issue .container {
+    width: 80%;
+  }
+}
+
+@media (max-width: 991px) {
+  #journal_special_issue .container {
+    width: 80%;
+  }
+}
+
 /*-------------------------- INFOS --------------------------*/
 
 #infos .container {
