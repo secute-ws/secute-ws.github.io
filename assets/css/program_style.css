@@ -98,6 +98,12 @@ table a:hover {
     font-size: 22px;
     }
 
+    .session-row td {
+      background-color: rgba(32, 178, 150, 0.12);
+      color: rgb(15, 90, 76);
+      font-size: 16px;
+    }
+
 @media (max-width: 1200px) {
     #program h2 {
         margin-top: 12%;
