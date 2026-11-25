@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-labelledby="title">
+  <title id="title">SECUTE 2027</title>
+  <circle cx="200" cy="200" r="196" fill="#075985"/>
+  <circle cx="200" cy="200" r="170" fill="none" stroke="#d6b77a" stroke-width="6"/>
+  <g fill="#fff" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold">
+    <text x="200" y="115" font-size="30">3RD WORKSHOP</text>
+    <text x="200" y="220" font-size="70">SECUTE</text>
+    <text x="200" y="280" font-size="46">2027</text>
+  </g>
+</svg>

@@ -1,0 +1,191 @@
+.grey {
+    background-color: #f3f4f6;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .white {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  
+#committee .container {
+    max-width: 150%;
+}
+  
+#committee h2 {
+    color: #075985;
+    font-family: 'Palanquin Dark', sans-serif;
+    font-size: 40px;
+    margin-bottom: 2%;
+    margin-top: 6%;
+    text-align: center;
+}
+
+#committee h3 {
+    color: #075985;
+    font-family: 'Palanquin Dark', sans-serif;
+    font-size: 34px;
+    margin-top: 1%;
+    text-align: center;
+}
+
+#committee h4 {
+    font-size: 28px;
+    color: #075985;
+    text-align: center;
+}
+
+#committee p {
+    text-align: justify;
+    font-size: 18px;
+}
+
+#committee a {
+    color: #f3f4f6;
+}
+
+#committee a:hover {
+    color: #fff;
+    text-decoration: underline;
+    transition: 0.6s;
+}
+
+.type-chairs {
+    margin-top: 2%;
+    padding: 1%;
+    border-top: 1px solid rgba(78, 78, 78, 0.449);
+}
+
+.member-container {
+    margin: 2%;
+}
+
+.member {
+    margin: 3%;
+    width: fit-content;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 5px;
+    background: #f3f4f6;
+    transition: 0.3s;
+    border: 1px solid rgba(78, 78, 78, 0.449);
+  }
+  
+  @media screen and (min-width:800px) {
+    .member:hover,
+    .pc-member:hover {
+      transition: 0.5s;
+      transform: scale(1.1);
+    }
+
+    .pc-member:hover {
+      position: relative;
+      z-index: 1;
+    }
+  }
+  
+  .member .member-img {
+    position: relative;
+    overflow: hidden;
+    object-fit: cover; 
+  }
+
+  .member .member-img img {
+    height: 95%;
+    width: 95%;
+    padding: 4%;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .member .member-img:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  .member-info h5 {
+    font-weight: 200;
+    margin-bottom: 5px;
+    font-size: 23px;
+    color: #f3f4f6;
+    background-color: rgb(9, 18, 60);
+    padding: 6px 6px;
+  }
+  
+  .member .member-info span {
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(31, 31, 31);
+  }
+
+  .member-info {
+    margin-bottom: 4%;
+  }
+
+.pc-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 20px;
+    margin: 2% 0;
+}
+
+.pc-member {
+    text-align: center;
+    padding: 16px;
+    background: #f3f4f6;
+    border: 1px solid rgba(78, 78, 78, 0.449);
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.pc-member img {
+    width: 140px;
+    height: 140px;
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.pc-member h5 {
+    color: #075985;
+    margin: 12px 0 6px;
+    font-size: 20px;
+}
+
+#committee .pc-member h5 a {
+    color: #075985;
+    text-decoration: none;
+}
+
+#committee .pc-member h5 a:hover,
+#committee .pc-member h5 a:focus-visible {
+    color: #043f5c;
+    text-decoration: underline;
+}
+
+.pc-member span {
+    display: block;
+    color: rgb(31, 31, 31);
+    font-size: 14px;
+}
+
+@media (max-width: 1300px) {
+    #committee h2 {
+      margin-top: 10%;
+    }
+}
+
+@media (max-width: 491px) {
+    #committee h2 {
+      margin-top: 12%;
+    }
+}

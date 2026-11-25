@@ -1,0 +1,74 @@
+#accepted h2 {
+    color: rgb(273, 179, 119);
+    font-family: 'Palanquin Dark', sans-serif;
+    font-size: 40px;
+    margin-bottom: 2%;
+    margin-top: 8%;
+    text-align: center;
+}
+
+.publication {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left:0;
+    transition: transform 0.3s;
+    background-color: #f3f4f6;
+    padding: 20px;
+    margin-bottom: 3%;
+}
+
+.publication:hover {
+  transform: scale(1.08);
+  opacity: 1;
+}
+
+.btn-publication {
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 6px 20px 6px 20px;
+  margin: 10px 0 10px 0;
+  border-radius: 4px;
+  transition: 0.5s;
+  color: #fff;
+  background: rgb(273, 179, 119);
+}
+.btn-publication:hover {
+  font-size: 16px;
+  background: rgb(273, 179, 119);
+  transform: scale(1.08);
+  opacity: 1;
+}
+
+.abstract {
+    padding: 10px 10px;
+    border: 1px solid #E5E5E5;
+    border-radius: 0.25rem;
+    font-size: 14px;
+    text-align: justify;
+    text-justify: inter-word;
+    background-color: white;
+}
+
+@media (max-width: 1200px) {
+    #accepted h2 {
+        margin-top: 12%;
+    }
+
+}
+
+@media (max-width: 764px) {
+    #accepted h2 {
+        margin-top: 70px;
+    }
+
+    .publication {
+        margin-bottom: 5%;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+}
