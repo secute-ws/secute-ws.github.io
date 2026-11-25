@@ -64,6 +64,77 @@
   margin: 2% 0 1% 0;
 }
 
+#home .home-logo {
+  width: 300px;
+  max-width: 55vw;
+  margin: 0 0 1rem;
+}
+
+#home .hero-workshop-title {
+  max-width: 920px;
+  margin: 0 0 1.75rem;
+  font-size: 36px;
+  line-height: 1.25;
+}
+
+#home .hero-location,
+#home .hero-colocated {
+  margin: 0.25rem 0;
+  color: #fff;
+  font-family: 'Palanquin Dark', sans-serif;
+  text-shadow: 0 4px 16px rgba(0, 0, 0, 0.9);
+}
+
+#home .hero-location {
+  font-size: 30px;
+}
+
+#home .hero-colocated {
+  font-size: 22px;
+}
+
+#home .hero-deadline {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  max-width: 100%;
+  margin: 1.25rem 0 0;
+  padding: 10px 16px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 6px;
+  background: rgba(9, 18, 60, 0.72);
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  white-space: normal;
+  transition: background-color 0.2s, border-color 0.2s;
+}
+
+#home .hero-deadline i {
+  margin-right: 6px;
+  color: #e6ca8c;
+}
+
+#home .hero-deadline strong {
+  color: #e6ca8c;
+}
+
+#home .hero-deadline:hover {
+  border-color: #e6ca8c;
+  background: rgba(7, 89, 133, 0.94);
+  color: #fff;
+  text-shadow: none;
+  text-decoration: none;
+}
+
+#home .hero-deadline:focus-visible {
+  outline: 3px solid #fff;
+  outline-offset: 3px;
+}
+
 #home a {
   white-space: nowrap;
   transition: 0.3s;
@@ -179,6 +250,12 @@
     height: auto;
   }
 
+  #home .hero-workshop-title {
+    font-size: 25px;
+    line-height: 1.25;
+    margin-bottom: 1.25rem;
+  }
+
   #home h1 {
     font-size: 36px;
     line-height: 36px;
@@ -193,6 +270,18 @@
 
   #home h3 {
     font-size: 20px;
+  }
+
+  #home .hero-location {
+    font-size: 21px;
+  }
+
+  #home .hero-colocated {
+    font-size: 18px;
+  }
+
+  #home .hero-deadline {
+    max-width: 360px;
   }
 
   #home .home-img img {

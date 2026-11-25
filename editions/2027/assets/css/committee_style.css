@@ -44,11 +44,11 @@
 }
 
 #committee a {
-    color: #f3f4f6;
+    color: #075985;
 }
 
 #committee a:hover {
-    color: #fff;
+    color: #043f5c;
     text-decoration: underline;
     transition: 0.6s;
 }
@@ -68,11 +68,20 @@
     width: fit-content;
     overflow: hidden;
     text-align: center;
-    border-radius: 5px;
-    background: #f3f4f6;
+    border-radius: 8px;
+    background: #fff;
     transition: 0.3s;
-    border: 1px solid rgba(78, 78, 78, 0.449);
+    border: 1px solid rgba(9, 18, 60, 0.16);
   }
+
+#committee .member-info h5 a {
+    color: #fff;
+}
+
+#committee .member-info h5 a:hover,
+#committee .member-info h5 a:focus-visible {
+    color: #e6ca8c;
+}
   
   @media screen and (min-width:800px) {
     .member:hover,
@@ -116,7 +125,7 @@
     margin-bottom: 5px;
     font-size: 23px;
     color: #f3f4f6;
-    background-color: rgb(9, 18, 60);
+    background-color: #075985;
     padding: 6px 6px;
   }
   
@@ -141,10 +150,15 @@
 .pc-member {
     text-align: center;
     padding: 16px;
-    background: #f3f4f6;
-    border: 1px solid rgba(78, 78, 78, 0.449);
-    border-radius: 5px;
+    background: #fff;
+    border: 1px solid rgba(9, 18, 60, 0.16);
+    border-radius: 8px;
     transition: 0.3s;
+}
+
+.member:hover,
+.pc-member:hover {
+    border-color: #d6b77a;
 }
 
 .pc-member img {
