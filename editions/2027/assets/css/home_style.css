@@ -88,11 +88,32 @@
   font-size: 30px;
 }
 
+#home .hero-location a {
+  color: inherit;
+  font: inherit;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+#home .hero-location a:hover,
+#home .hero-location a:focus-visible {
+  color: #e6ca8c;
+  text-shadow: none;
+}
+
 #home .hero-colocated {
   font-size: 22px;
 }
 
-#home .hero-deadline {
+#home .hero-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0 12px;
+}
+
+#home .hero-deadline,
+#home .hero-conf-page {
   display: inline-flex;
   flex-wrap: wrap;
   align-items: center;
@@ -117,11 +138,16 @@
   color: #e6ca8c;
 }
 
+#home .hero-conf-page i {
+  color: #e6ca8c;
+}
+
 #home .hero-deadline strong {
   color: #e6ca8c;
 }
 
-#home .hero-deadline:hover {
+#home .hero-deadline:hover,
+#home .hero-conf-page:hover {
   border-color: #e6ca8c;
   background: rgba(7, 89, 133, 0.94);
   color: #fff;
@@ -129,7 +155,8 @@
   text-decoration: none;
 }
 
-#home .hero-deadline:focus-visible {
+#home .hero-deadline:focus-visible,
+#home .hero-conf-page:focus-visible {
   outline: 3px solid #fff;
   outline-offset: 3px;
 }
@@ -271,7 +298,8 @@
     font-size: 18px;
   }
 
-  #home .hero-deadline {
+  #home .hero-deadline,
+  #home .hero-conf-page {
     max-width: 360px;
   }
 
